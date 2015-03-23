@@ -7,7 +7,7 @@
 		<script src="resources/sap-ui-core.js"
 				id="sap-ui-bootstrap"
 				data-sap-ui-libs="sap.m,sap.ui.layout,sap.ui.commons,sap.ui.table"
-				data-sap-ui-resourceroots='{"com.mccoy.KLMCalc": "./"}'
+				data-sap-ui-resourceroots='{"KLMCalculator": "./"}'
 				data-sap-ui-theme="sap_bluecrystal">
 		</script>
 		<!-- only load the mobile lib "sap.m" and the "sap_bluecrystal" theme -->
@@ -20,7 +20,7 @@
 
 				sap.ui.localResources("view");
 				var app = new sap.m.App({initialPage:"idPage"});
-				var page = sap.ui.view({id:"idPage", viewName:"com.mccoy.KLMCalc.view.Page", type:sap.ui.core.mvc.ViewType.XML});
+				var page = sap.ui.view({id:"idPage", viewName:"KLMCalculator.view.Page", type:sap.ui.core.mvc.ViewType.XML});
 				app.addPage(page);
 				app.placeAt("content");
 		</script>

@@ -1,10 +1,10 @@
 jQuery.sap.require("sap.ui.core.util.Export");
 jQuery.sap.require("sap.ui.core.util.ExportTypeCSV");
-sap.ui.controller("com.mccoy.KLMCalc.view.Page", {
+sap.ui.controller("KLMCalculator.view.Page", {
 
      onInit: function() {
           // set model for tiles
-          var sPath = jQuery.sap.getModulePath("com.mccoy.KLMCalc", "/data.json");
+          var sPath = jQuery.sap.getModulePath("KLMCalculator", "/data.json");
           var oModel = new sap.ui.model.json.JSONModel(sPath);
           this.getView().setModel(oModel);
      },
@@ -170,7 +170,7 @@ sap.ui.controller("com.mccoy.KLMCalc.view.Page", {
           });
 
           // download exported file
-          oExport.saveFile("KLMCalc").always(function() {
+          oExport.saveFile("KLMCalculator").always(function() {
                this.destroy();
           });
      },

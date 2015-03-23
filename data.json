@@ -5,8 +5,6 @@
 			"number"        : "0.20",
 			"numberUnit"    : "seconds",
 			"title"         : "Key press and release (keyboard)",
-			"function"      : "addK",
-			"info"          : "stK",
 			"code"          : "K"
 		},
 		{
@@ -14,8 +12,6 @@
 			"number"        : "1.10",
 			"numberUnit"    : "seconds",
 			"title"         : "Point the mouse to an object on screen",
-			"function"      : "addK",
-			"info"          : "stP",
 			"code"          : "P"
 		},
 		{
@@ -23,8 +19,6 @@
 			"number"        : "0.10",
 			"numberUnit"    : "seconds",
 			"title"         : "Button press or release (mouse)",
-			"function"      : "addK",
-			"info"          : "stB",
 			"code"          : "B"
 		},
 		{
@@ -32,8 +26,6 @@
 			"number"        : "0.40",
 			"numberUnit"    : "seconds",
 			"title"         : "Hand from keyboard to mouse or vice versa",
-			"function"      : "addK",
-			"info"          : "stH",
 			"code"          : "H"
 		},
 		{
@@ -41,8 +33,6 @@
 			"number"        : "1.20",
 			"numberUnit"    : "seconds",
 			"title"         : "Mental preparation",
-			"function"      : "addK",
-			"info"          : "stM",
 			"code"          : "M"
 		}
 		

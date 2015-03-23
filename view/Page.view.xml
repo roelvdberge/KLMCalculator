@@ -1,6 +1,6 @@
 <mvc:View
   height="100%"
-  controllerName="com.mccoy.KLMCalc.view.Page"
+  controllerName="KLMCalculator.view.Page"
   xmlns:mvc="sap.ui.core.mvc"
   xmlns:l="sap.ui.layout"
   xmlns:c="sap.ui.commons"
