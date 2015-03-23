@@ -20,9 +20,11 @@ sap.ui.controller("KLMCalculator.view.Page", {
 		var oModel = this.getView().getModel();
 		
 		if (evt.mParameters){
+            // If a button on the screen was pressed, find accompanying time		    
     		var tileIndex = parseInt(evt.mParameters.id.substr(evt.mParameters.id.length - 1), 10);
 	    	var time = parseFloat(oModel.oData.TileCollection[tileIndex].number);
 		}else{
+            // If a keyboard key was pressed, use that to find the accompanying time
             for (var tileIndex=0; tileIndex < oModel.oData.TileCollection.length; tileIndex++){
                 if (oModel.oData.TileCollection[tileIndex].keyCode == evt.keyCode){
                     var time = parseFloat(oModel.oData.TileCollection[tileIndex].number);
