@@ -9,7 +9,7 @@
 			"keyCode"       : "107"
 		},
 		{
-			"icon"          : "images/Picture2.png",
+			"icon"          : "images/Picture5.png",
 			"number"        : "1.10",
 			"numberUnit"    : "seconds",
 			"title"         : "Point the mouse to an object on screen",
@@ -17,7 +17,7 @@
 			"keyCode"       : "112"
 		},
 		{
-			"icon"          : "images/Picture3.png",
+			"icon"          : "images/Picture2.png",
 			"number"        : "0.10",
 			"numberUnit"    : "seconds",
 			"title"         : "Button press or release (mouse)",
@@ -33,7 +33,7 @@
 			"keyCode"       : "104"
 		},
 		{
-			"icon"          : "images/Picture5.png",
+			"icon"          : "images/Picture3.png",
 			"number"        : "1.20",
 			"numberUnit"    : "seconds",
 			"title"         : "Mental preparation",

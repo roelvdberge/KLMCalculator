@@ -10,9 +10,7 @@ sap.ui.controller("KLMCalculator.view.Page", {
 		this.getView().setModel(oModel);
 		
 		window.onkeypress = function(event) {
-	        if (event.keyCode == '107') {
-		        sap.ui.getCore().byId("idPage").getController().addTime(event);
-	        }
+	        sap.ui.getCore().byId("idPage").getController().addTime(event);
         };
 	},
 
@@ -31,6 +29,10 @@ sap.ui.controller("KLMCalculator.view.Page", {
                     break;
                 }
             }
+		}
+		
+		if (!time){
+		    return;
 		}
 
 		// Add the time to the total
